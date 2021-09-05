@@ -1,0 +1,22 @@
+package Assignment;
+
+public class Assignment13 {
+
+	
+		static int var=9;
+		public static void func()
+		{
+		System.out.println("learning static keyword");
+		}
+		}
+		public class Main
+		{
+
+		public static void main(String s[])
+		{
+		Demo ob = new Demo();
+		ob.var=9;
+		ob.func();
+
+		}
+}
